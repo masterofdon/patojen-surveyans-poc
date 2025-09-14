@@ -9,8 +9,8 @@ export type SidebarButtonProps = {
 export const SidebarButton = ({ icon, label, onClick, selected = false }: SidebarButtonProps) => {
   const styles = {
     container : {
-      width: "56px",
-      height: "56px",
+      width: "48px",
+      height: "48px",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
@@ -20,6 +20,7 @@ export const SidebarButton = ({ icon, label, onClick, selected = false }: Sideba
       hover: {
         backgroundColor: "rgba(255, 255, 255, 0.1)"
       },
+      borderRadius: "8px",
       backgroundColor: selected ? "rgba(0, 0, 0, 0.4)" : "transparent",
     } as React.CSSProperties
   }

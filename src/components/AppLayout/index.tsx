@@ -1,6 +1,9 @@
 import { Layout } from 'antd';
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaChartLine } from "react-icons/fa";
+import { HiMiniInformationCircle } from "react-icons/hi2";
+import { BiWorld } from "react-icons/bi";
+
 
 const { Header, Sider, Content } = Layout;
 
@@ -11,7 +14,15 @@ export type AppLayoutProps = {
   collapsed?: boolean;
   children: ReactNode;
 };
+const ROUTES = [
+  "/",
+  "/charts",
+  "/information",
+  "/about"
+]
 export const AppLayout = ({ collapsed = false, children }: AppLayoutProps) => {
+
+  const currentRoute = window.location.pathname;
 
   const styles = {
     sider: {
@@ -80,25 +91,32 @@ export const AppLayout = ({ collapsed = false, children }: AppLayoutProps) => {
     >
 
       <Layout>
-        <Sider width={"80px"} style={styles.sider}>
+        <Sider width={"64px"} style={styles.sider}>
           <div style={styles.siderPartOne}>
-
+            <div style={styles.buttonContainer}>
+              <SidebarButton
+                icon={<BiWorld color='white' size={20} />}
+                label={collapsed ? undefined : ""}
+                onClick={() => { }}
+                selected={false}
+              />
+            </div>
           </div>
           <div style={styles.siderTopIcons}>
             <div style={styles.buttonContainer}>
               <SidebarButton
-                icon={<FaMapMarkerAlt color='white' size={24} />}
+                icon={<FaMapMarkerAlt color='white' size={20} />}
                 label={collapsed ? undefined : "Harita"}
                 onClick={() => { }}
-                selected={true}
+                selected={ROUTES[0] === currentRoute}
               />
             </div>
             <div style={styles.buttonContainer}>
               <SidebarButton
-                icon={<FaChartLine color='white' size={24} />}
+                icon={<FaChartLine color='white' size={20} />}
                 label={collapsed ? undefined : "Grafikler"}
                 onClick={() => { }}
-                selected={false}
+                selected={ROUTES[1] === currentRoute}
               />
             </div>
           </div>
@@ -106,7 +124,24 @@ export const AppLayout = ({ collapsed = false, children }: AppLayoutProps) => {
             ...styles.siderSeperator,
             flex: 1,
           }}></div>
-          <div style={styles.siderMidIcons}></div>
+          <div style={styles.siderMidIcons}>
+            <div style={styles.buttonContainer}>
+              <SidebarButton
+                icon={<HiMiniInformationCircle color='white' size={20} />}
+                label={collapsed ? undefined : "Bilgi"}
+                onClick={() => { }}
+                selected={ROUTES[2] === currentRoute}
+              />
+            </div>
+            <div style={styles.buttonContainer}>
+              <SidebarButton
+                icon={<FaMapMarkerAlt color='white' size={20} />}
+                label={collapsed ? undefined : "Hakkında"}
+                onClick={() => { }}
+                selected={ROUTES[3] === currentRoute}
+              />
+            </div>
+          </div>
           <div style={{
             ...styles.siderSeperator,
             flex: 3,
