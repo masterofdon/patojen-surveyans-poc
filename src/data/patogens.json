@@ -1,0 +1,2182 @@
+[
+  {
+    "uuid": "9",
+    "name": "SARS-CoV-2",
+    "type": "Virus",
+    "description": "COVID-19'a neden olan koronavirüs.",
+    "healthRisks": [
+      "COVID-19",
+      "Akut solunum yetmezliği",
+      "Pnömoni"
+    ],
+    "detectionMethods": [
+      "RT-PCR",
+      "Antijen testi"
+    ],
+    "sources": [
+      "İnsan solunum salgıları",
+      "Kontamine yüzeyler"
+    ],
+    "severity": "very high",
+    "frequency": 0,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9900,
+        "longitude": 29.0283,
+        "frequency": 1
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 0
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 2
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 3
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 2
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 0
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 1
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 3
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 0
+      }
+    ]
+  },
+  {
+    "uuid": "1",
+    "name": "Escherichia coli",
+    "type": "Bacteria",
+    "description": "Suda fekal kontaminasyonun göstergesi olan organizma.",
+    "healthRisks": [
+      "Gastroenteritis",
+      "Urinary tract infections"
+    ],
+    "detectionMethods": [
+      "Membrane filtration",
+      "PCR"
+    ],
+    "sources": [
+      "Human and animal feces"
+    ],
+    "severity": "moderate",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 2
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 1
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 0
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 2
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 3
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 0
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 1
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 2
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 3
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 0
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 2
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "2",
+    "name": "Cryptosporidium",
+    "type": "Protozoa",
+    "description": "Klor direnci olan ve gastrointestinal hastalığa neden olan protozoan parazit.",
+    "healthRisks": [
+      "Cryptosporidiosis"
+    ],
+    "detectionMethods": [
+      "Microscopy",
+      "Immunofluorescence assay"
+    ],
+    "sources": [
+      "Contaminated water",
+      "Animal waste"
+    ],
+    "severity": "high",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "3",
+    "name": "Giardia lamblia",
+    "type": "Protozoa",
+    "description": "Giardiasis adlı ishal hastalığına neden olan protozoan parazit.",
+    "healthRisks": [
+      "Giardiasis"
+    ],
+    "detectionMethods": [
+      "Microscopy",
+      "ELISA"
+    ],
+    "sources": [
+      "Contaminated water",
+      "Animal waste"
+    ],
+    "severity": "moderate",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "4",
+    "name": "Salmonella",
+    "type": "Bacteria",
+    "description": "Salmonelloza neden olan patojen bakteri.",
+    "healthRisks": [
+      "Salmonellosis"
+    ],
+    "detectionMethods": [
+      "Culture",
+      "PCR"
+    ],
+    "sources": [
+      "Fecal contamination",
+      "Animal waste"
+    ],
+    "severity": "high",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "5",
+    "name": "Norovirus",
+    "type": "Virus",
+    "description": "Akut gastroenterite neden olan, oldukça bulaşıcı virüs.",
+    "healthRisks": [
+      "Gastroenteritis"
+    ],
+    "detectionMethods": [
+      "RT-PCR"
+    ],
+    "sources": [
+      "Human feces",
+      "Contaminated water"
+    ],
+    "severity": "very high",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "6",
+    "name": "Vibrio cholerae",
+    "type": "Bacteria",
+    "description": "Şiddetli ishal hastalığı olan koleraya neden olan bakteri.",
+    "healthRisks": [
+      "Cholera"
+    ],
+    "detectionMethods": [
+      "Culture",
+      "PCR"
+    ],
+    "sources": [
+      "Contaminated water",
+      "Seafood"
+    ],
+    "severity": "very high",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "7",
+    "name": "Hepatitis A virus",
+    "type": "Virus",
+    "description": "Karaciğer enfeksiyonu olan Hepatit A'ya neden olan virüs.",
+    "healthRisks": [
+      "Hepatitis A"
+    ],
+    "detectionMethods": [
+      "RT-PCR",
+      "ELISA"
+    ],
+    "sources": [
+      "Human feces",
+      "Contaminated water"
+    ],
+    "severity": "high",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "8",
+    "name": "Legionella pneumophila",
+    "type": "Bacteria",
+    "description": "Lejyoner hastalığına neden olan bakteri.",
+    "healthRisks": [
+      "Legionnaires' disease",
+      "Pontiac fever"
+    ],
+    "detectionMethods": [
+      "Culture",
+      "PCR"
+    ],
+    "sources": [
+      "Water systems",
+      "Cooling towers"
+    ],
+    "severity": "high",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "10",
+    "name": "RSV",
+    "type": "Virus",
+    "description": "Solunum yolu enfeksiyonlarına neden olan Respiratuar Sinsityal Virüs.",
+    "healthRisks": [
+      "Bronşiolit",
+      "Pnömoni",
+      "Solunum yolu enfeksiyonları"
+    ],
+    "detectionMethods": [
+      "RT-PCR",
+      "Antijen testi"
+    ],
+    "sources": [
+      "İnsan solunum salgıları"
+    ],
+    "severity": "high",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "11",
+    "name": "Influenza A",
+    "type": "Virus",
+    "description": "Mevsimsel grip ve pandemilere neden olabilen influenza virüsü.",
+    "healthRisks": [
+      "Grip",
+      "Pnömoni",
+      "Solunum yetmezliği"
+    ],
+    "detectionMethods": [
+      "RT-PCR",
+      "Hızlı antijen testi"
+    ],
+    "sources": [
+      "İnsan solunum salgıları"
+    ],
+    "severity": "high",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "12",
+    "name": "Influenza B",
+    "type": "Virus",
+    "description": "Mevsimsel grip enfeksiyonlarına neden olan influenza virüsü.",
+    "healthRisks": [
+      "Grip",
+      "Solunum yolu enfeksiyonları"
+    ],
+    "detectionMethods": [
+      "RT-PCR",
+      "Hızlı antijen testi"
+    ],
+    "sources": [
+      "İnsan solunum salgıları"
+    ],
+    "severity": "moderate",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "13",
+    "name": "Human Metapneumovirus",
+    "type": "Virus",
+    "description": "Çocuklarda ve yaşlılarda solunum yolu enfeksiyonlarına neden olan virüs.",
+    "healthRisks": [
+      "Bronşiolit",
+      "Pnömoni",
+      "Üst solunum yolu enfeksiyonları"
+    ],
+    "detectionMethods": [
+      "RT-PCR"
+    ],
+    "sources": [
+      "İnsan solunum salgıları"
+    ],
+    "severity": "moderate",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  },
+  {
+    "uuid": "14",
+    "name": "EVD68",
+    "type": "Virus",
+    "description": "Enterovirus D68, solunum yolu enfeksiyonlarına ve nadiren akut flask paraliziye neden olabilir.",
+    "healthRisks": [
+      "Solunum yolu enfeksiyonları",
+      "Akut flask paralizi"
+    ],
+    "detectionMethods": [
+      "RT-PCR"
+    ],
+    "sources": [
+      "İnsan solunum salgıları"
+    ],
+    "severity": "moderate",
+    "frequency": 2,
+    "measurements": [
+      {
+        "id": 1,
+        "name": "Istanbul - Kadikoy",
+        "latitude": 40.9902,
+        "longitude": 29.0283,
+        "frequency": 2
+      },
+      {
+        "id": 2,
+        "name": "Ankara - Cankaya",
+        "latitude": 39.9251,
+        "longitude": 32.8369,
+        "frequency": 1
+      },
+      {
+        "id": 3,
+        "name": "Izmir - Konak",
+        "latitude": 38.4192,
+        "longitude": 27.1287,
+        "frequency": 0
+      },
+      {
+        "id": 4,
+        "name": "Bursa - Osmangazi",
+        "latitude": 40.1826,
+        "longitude": 29.0665,
+        "frequency": 2
+      },
+      {
+        "id": 5,
+        "name": "Antalya - Muratpasa",
+        "latitude": 36.8853,
+        "longitude": 30.7056,
+        "frequency": 3
+      },
+      {
+        "id": 6,
+        "name": "Adana - Seyhan",
+        "latitude": 37.0000,
+        "longitude": 35.3213,
+        "frequency": 1
+      },
+      {
+        "id": 7,
+        "name": "Gaziantep - Sahinbey",
+        "latitude": 37.0662,
+        "longitude": 37.3833,
+        "frequency": 2
+      },
+      {
+        "id": 8,
+        "name": "Konya - Selcuklu",
+        "latitude": 37.8746,
+        "longitude": 32.4932,
+        "frequency": 0
+      },
+      {
+        "id": 9,
+        "name": "Kayseri - Melikgazi",
+        "latitude": 38.7312,
+        "longitude": 35.4787,
+        "frequency": 2
+      },
+      {
+        "id": 10,
+        "name": "Mersin - Mezitli",
+        "latitude": 36.7953,
+        "longitude": 34.6179,
+        "frequency": 1
+      },
+      {
+        "id": 11,
+        "name": "Eskisehir - Odunpazari",
+        "latitude": 39.7767,
+        "longitude": 30.5206,
+        "frequency": 2
+      },
+      {
+        "id": 12,
+        "name": "Diyarbakir - Sur",
+        "latitude": 37.9144,
+        "longitude": 40.2306,
+        "frequency": 3
+      },
+      {
+        "id": 13,
+        "name": "Samsun - Atakum",
+        "latitude": 41.2867,
+        "longitude": 36.3308,
+        "frequency": 0
+      },
+      {
+        "id": 14,
+        "name": "Trabzon - Ortahisar",
+        "latitude": 41.0053,
+        "longitude": 39.7225,
+        "frequency": 2
+      },
+      {
+        "id": 15,
+        "name": "Denizli - Merkezefendi",
+        "latitude": 37.7833,
+        "longitude": 29.0875,
+        "frequency": 1
+      },
+      {
+        "id": 16,
+        "name": "Sanliurfa - Haliliye",
+        "latitude": 37.1674,
+        "longitude": 38.7955,
+        "frequency": 2
+      },
+      {
+        "id": 17,
+        "name": "Malatya - Battalgazi",
+        "latitude": 38.3552,
+        "longitude": 38.3095,
+        "frequency": 3
+      },
+      {
+        "id": 18,
+        "name": "Sakarya - Adapazari",
+        "latitude": 40.7806,
+        "longitude": 30.4033,
+        "frequency": 0
+      },
+      {
+        "id": 19,
+        "name": "Balikesir - Karesi",
+        "latitude": 39.6492,
+        "longitude": 27.8861,
+        "frequency": 2
+      },
+      {
+        "id": 20,
+        "name": "Manisa - Yunusemre",
+        "latitude": 38.6191,
+        "longitude": 27.4289,
+        "frequency": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Istanbul - Kadikoy",
+    "latitude": 40.9902,
+    "longitude": 29.0283,
+    "frequency": 2
+  },
+  {
+    "id": 2,
+    "name": "Ankara - Cankaya",
+    "latitude": 39.9251,
+    "longitude": 32.8369,
+    "frequency": 1
+  },
+  {
+    "id": 3,
+    "name": "Izmir - Konak",
+    "latitude": 38.4192,
+    "longitude": 27.1287,
+    "frequency": 0
+  },
+  {
+    "id": 4,
+    "name": "Bursa - Osmangazi",
+    "latitude": 40.1826,
+    "longitude": 29.0665,
+    "frequency": 2
+  },
+  {
+    "id": 5,
+    "name": "Antalya - Muratpasa",
+    "latitude": 36.8853,
+    "longitude": 30.7056,
+    "frequency": 3
+  },
+  {
+    "id": 6,
+    "name": "Adana - Seyhan",
+    "latitude": 37.0000,
+    "longitude": 35.3213,
+    "frequency": 1
+  },
+  {
+    "id": 7,
+    "name": "Gaziantep - Sahinbey",
+    "latitude": 37.0662,
+    "longitude": 37.3833,
+    "frequency": 2
+  },
+  {
+    "id": 8,
+    "name": "Konya - Selcuklu",
+    "latitude": 37.8746,
+    "longitude": 32.4932,
+    "frequency": 0
+  },
+  {
+    "id": 9,
+    "name": "Kayseri - Melikgazi",
+    "latitude": 38.7312,
+    "longitude": 35.4787,
+    "frequency": 2
+  },
+  {
+    "id": 10,
+    "name": "Mersin - Mezitli",
+    "latitude": 36.7953,
+    "longitude": 34.6179,
+    "frequency": 1
+  },
+  {
+    "id": 11,
+    "name": "Eskisehir - Odunpazari",
+    "latitude": 39.7767,
+    "longitude": 30.5206,
+    "frequency": 2
+  },
+  {
+    "id": 12,
+    "name": "Diyarbakir - Sur",
+    "latitude": 37.9144,
+    "longitude": 40.2306,
+    "frequency": 3
+  },
+  {
+    "id": 13,
+    "name": "Samsun - Atakum",
+    "latitude": 41.2867,
+    "longitude": 36.3308,
+    "frequency": 0
+  },
+  {
+    "id": 14,
+    "name": "Trabzon - Ortahisar",
+    "latitude": 41.0053,
+    "longitude": 39.7225,
+    "frequency": 2
+  },
+  {
+    "id": 15,
+    "name": "Denizli - Merkezefendi",
+    "latitude": 37.7833,
+    "longitude": 29.0875,
+    "frequency": 1
+  },
+  {
+    "id": 16,
+    "name": "Sanliurfa - Haliliye",
+    "latitude": 37.1674,
+    "longitude": 38.7955,
+    "frequency": 2
+  },
+  {
+    "id": 17,
+    "name": "Malatya - Battalgazi",
+    "latitude": 38.3552,
+    "longitude": 38.3095,
+    "frequency": 3
+  },
+  {
+    "id": 18,
+    "name": "Sakarya - Adapazari",
+    "latitude": 40.7806,
+    "longitude": 30.4033,
+    "frequency": 0
+  },
+  {
+    "id": 19,
+    "name": "Balikesir - Karesi",
+    "latitude": 39.6492,
+    "longitude": 27.8861,
+    "frequency": 2
+  },
+  {
+    "id": 20,
+    "name": "Manisa - Yunusemre",
+    "latitude": 38.6191,
+    "longitude": 27.4289,
+    "frequency": 1
+  }
+]
