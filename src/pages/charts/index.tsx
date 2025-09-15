@@ -21,7 +21,6 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend,
 
 export const ChartsPage = () => {
   const [selectedPatogen, setSelectedPatogen] = useState<Patogen>(PATOGENS[0]);
-  const [selectedVariant, setSelectedVariant] = useState<string | null>(PATOGENS[0].variations ? PATOGENS[0].variations[0] : null);
 
   const TAB_MENU_ITEMS = [
     {
@@ -114,7 +113,7 @@ export const ChartsPage = () => {
       <div style={styles.rightChartsContainer}>
         <Line
           id="line-chart"
-          key={selectedVariant || 'default'}
+          key={selectedPatogen.uuid}
           data={data}
         />
       </div>
