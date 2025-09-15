@@ -1,6 +1,7 @@
 [
   {
     "uuid": "9",
+    "family": 1,
     "name": "SARS-CoV-2",
     "type": "Virus",
     "description": "COVID-19'a neden olan koronavirüs.",
@@ -19,6 +20,12 @@
     ],
     "severity": "very high",
     "frequency": 0,
+    "variations": [
+      "Alpha",
+      "Beta",
+      "Delta",
+      "Omicron"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -87,6 +94,7 @@
   },
   {
     "uuid": "1",
+    "family": 2,
     "name": "Escherichia coli",
     "type": "Bacteria",
     "description": "Suda fekal kontaminasyonun göstergesi olan organizma.",
@@ -103,6 +111,10 @@
     ],
     "severity": "moderate",
     "frequency": 2,
+    "variations": [
+      "O157:H7",
+      "K12"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -248,6 +260,7 @@
   },
   {
     "uuid": "2",
+    "family": 2,
     "name": "Cryptosporidium",
     "type": "Protozoa",
     "description": "Klor direnci olan ve gastrointestinal hastalığa neden olan protozoan parazit.",
@@ -264,6 +277,10 @@
     ],
     "severity": "high",
     "frequency": 2,
+    "variations": [
+      "C. parvum",
+      "C. hominis"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -409,6 +426,7 @@
   },
   {
     "uuid": "3",
+    "family": 2,
     "name": "Giardia lamblia",
     "type": "Protozoa",
     "description": "Giardiasis adlı ishal hastalığına neden olan protozoan parazit.",
@@ -425,6 +443,10 @@
     ],
     "severity": "moderate",
     "frequency": 2,
+    "variations": [
+      "Assemblage A",
+      "Assemblage B"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -570,6 +592,7 @@
   },
   {
     "uuid": "4",
+    "family": 2,
     "name": "Salmonella",
     "type": "Bacteria",
     "description": "Salmonelloza neden olan patojen bakteri.",
@@ -586,6 +609,10 @@
     ],
     "severity": "high",
     "frequency": 2,
+    "variations": [
+      "Typhimurium",
+      "Enteritidis"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -731,6 +758,7 @@
   },
   {
     "uuid": "5",
+    "family": 2,
     "name": "Norovirus",
     "type": "Virus",
     "description": "Akut gastroenterite neden olan, oldukça bulaşıcı virüs.",
@@ -746,6 +774,10 @@
     ],
     "severity": "very high",
     "frequency": 2,
+    "variations": [
+      "GII.4",
+      "GI.1"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -891,6 +923,7 @@
   },
   {
     "uuid": "6",
+    "family": 2,
     "name": "Vibrio cholerae",
     "type": "Bacteria",
     "description": "Şiddetli ishal hastalığı olan koleraya neden olan bakteri.",
@@ -907,6 +940,10 @@
     ],
     "severity": "very high",
     "frequency": 2,
+    "variations": [
+      "O1",
+      "O139"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -1052,6 +1089,7 @@
   },
   {
     "uuid": "7",
+    "family": 2,
     "name": "Hepatitis A virus",
     "type": "Virus",
     "description": "Karaciğer enfeksiyonu olan Hepatit A'ya neden olan virüs.",
@@ -1068,6 +1106,10 @@
     ],
     "severity": "high",
     "frequency": 2,
+    "variations": [
+      "Genotype I",
+      "Genotype III"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -1213,6 +1255,7 @@
   },
   {
     "uuid": "8",
+    "family": 2,
     "name": "Legionella pneumophila",
     "type": "Bacteria",
     "description": "Lejyoner hastalığına neden olan bakteri.",
@@ -1230,6 +1273,10 @@
     ],
     "severity": "high",
     "frequency": 2,
+    "variations": [
+      "Serogroup 1",
+      "Serogroup 2"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -1375,6 +1422,7 @@
   },
   {
     "uuid": "10",
+    "family": 1,
     "name": "RSV",
     "type": "Virus",
     "description": "Solunum yolu enfeksiyonlarına neden olan Respiratuar Sinsityal Virüs.",
@@ -1392,6 +1440,10 @@
     ],
     "severity": "high",
     "frequency": 2,
+    "variations": [
+      "A",
+      "B"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -1537,6 +1589,7 @@
   },
   {
     "uuid": "11",
+    "family": 1,
     "name": "Influenza A",
     "type": "Virus",
     "description": "Mevsimsel grip ve pandemilere neden olabilen influenza virüsü.",
@@ -1554,6 +1607,10 @@
     ],
     "severity": "high",
     "frequency": 2,
+    "variations": [
+      "A(H1N1)",
+      "A(H3N2)"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -1699,6 +1756,7 @@
   },
   {
     "uuid": "12",
+    "family": 1,
     "name": "Influenza B",
     "type": "Virus",
     "description": "Mevsimsel grip enfeksiyonlarına neden olan influenza virüsü.",
@@ -1715,6 +1773,10 @@
     ],
     "severity": "moderate",
     "frequency": 2,
+    "variations": [
+      "B/Victoria",
+      "B/Yamagata"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -1860,6 +1922,7 @@
   },
   {
     "uuid": "13",
+    "family": 1,
     "name": "Human Metapneumovirus",
     "type": "Virus",
     "description": "Çocuklarda ve yaşlılarda solunum yolu enfeksiyonlarına neden olan virüs.",
@@ -1876,6 +1939,10 @@
     ],
     "severity": "moderate",
     "frequency": 2,
+    "variations": [
+      "A1",
+      "A2"
+    ],
     "measurements": [
       {
         "id": 1,
@@ -2021,6 +2088,7 @@
   },
   {
     "uuid": "14",
+    "family": 1,
     "name": "EVD68",
     "type": "Virus",
     "description": "Enterovirus D68, solunum yolu enfeksiyonlarına ve nadiren akut flask paraliziye neden olabilir.",
@@ -2036,6 +2104,10 @@
     ],
     "severity": "moderate",
     "frequency": 2,
+    "variations": [
+      "Lineage 1",
+      "Lineage 2"
+    ],
     "measurements": [
       {
         "id": 1,

@@ -9,6 +9,7 @@ const { Header, Sider, Content } = Layout;
 
 import type { CSSProperties, ReactNode } from 'react';
 import { SidebarButton } from '../SidebarButton';
+import { useNavigate } from 'react-router-dom';
 
 export type AppLayoutProps = {
   collapsed?: boolean;
@@ -22,6 +23,7 @@ const ROUTES = [
 ]
 export const AppLayout = ({ collapsed = false, children }: AppLayoutProps) => {
 
+  const navigate = useNavigate();
   const currentRoute = window.location.pathname;
 
   const styles = {
@@ -107,7 +109,9 @@ export const AppLayout = ({ collapsed = false, children }: AppLayoutProps) => {
               <SidebarButton
                 icon={<FaMapMarkerAlt color='white' size={20} />}
                 label={collapsed ? undefined : "Harita"}
-                onClick={() => { }}
+                onClick={() => {
+                  navigate("/");
+                }}
                 selected={ROUTES[0] === currentRoute}
               />
             </div>
@@ -115,7 +119,9 @@ export const AppLayout = ({ collapsed = false, children }: AppLayoutProps) => {
               <SidebarButton
                 icon={<FaChartLine color='white' size={20} />}
                 label={collapsed ? undefined : "Grafikler"}
-                onClick={() => { }}
+                onClick={() => {
+                  navigate("/charts");
+                }}
                 selected={ROUTES[1] === currentRoute}
               />
             </div>

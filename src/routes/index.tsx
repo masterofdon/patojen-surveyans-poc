@@ -1,5 +1,6 @@
 import { useRoutes } from "react-router-dom";
 import { HomePage } from "../pages/home";
+import { ChartsPage } from "../pages/charts";
 
 export const AppRoutes = () => {
 
@@ -11,9 +12,9 @@ export const AppRoutes = () => {
       children: []
     },
     {
-      path: "/about",
-      name: "About",
-      element: <div>About Page</div>,
+      path: "/charts",
+      name: "Charts",
+      element: <ChartsPage />,
       children: []
     }
   ];

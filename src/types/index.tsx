@@ -1,5 +1,6 @@
 
 export type Patogen = {
+  uuid: string;
   name: string;
   type: string;
   description: string;
